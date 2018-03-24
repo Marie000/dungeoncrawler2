@@ -1,0 +1,84 @@
+body {
+	font-family: 'VT323', monospace ;
+	background-color:black;
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+
+}
+
+.squareRow {
+	padding: 0;
+	margin:  0;
+}
+
+.square{
+	padding: 0;
+	margin: -2px 0;
+}
+
+.pregame {
+  margin: 20px 20% 0 20%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 50px 20px;
+}
+
+button {
+	font-size:15px;
+	background:black;
+	border:white solid 2px;
+	color:white;
+  padding:5px;	
+  font-family: 'VT323', monospace ;
+}
+button:hover {
+	background:white;
+	color:black;
+}
+.characterChoice {
+	border: white dashed 2px;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.grid{
+	display:block;
+	text-align:center;
+}
+
+.header {
+	width: 450px;
+	background-color: grey;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	text-align: left;
+	padding: 10px 20px;
+}
+
+.display{
+	padding: 10px;
+	width:500px;
+	background:black;
+  text-align:center;
+  color: white;
+	margin: auto;
+}
+
+.endImage {
+	width:50px;
+	height:50px;
+	padding:10px 0 40px 0;
+}
+
+.health{
+	padding:10px;
+}
+.enemyHealth {
+	text-align:left;
+	float:right;
+	padding: 1px;
+}
+
